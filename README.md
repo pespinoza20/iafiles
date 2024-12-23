@@ -162,3 +162,32 @@ async def procesar_documento(texto: str):
 Ejecuta esta API y utiliza herramientas como Postman para enviar texto y recibir entidades extraídas.
 
 ---
+
+## **Costos**
+
+# Tabla de Costos: Herramientas para Procesamiento de Documentos Legales
+
+| Herramienta                      | Costo Inicial           | Planes/Notas                                                                               |
+|----------------------------------|-------------------------|-------------------------------------------------------------------------------------------|
+| **spaCy**                        | Gratuito                | Código abierto para uso comercial.                                                       |
+| **Hugging Face Transformers**    | Gratuito/Variable       | Gratuito localmente, costos en la nube basados en uso.                                    |
+| **NLTK**                         | Gratuito                | Código abierto.                                                                           |
+| **LegalBERT**                    | Gratuito/Variable       | Gratuito, costos por hardware para entrenamiento.                                         |
+| **GPT (OpenAI API)**             | Desde $0.002/1k tokens  | Costos variables según el modelo y volumen de uso.                                        |
+| **Tesseract OCR**                | Gratuito                | Código abierto.                                                                           |
+| **Google Vision API**            | Gratis hasta 1k solicitudes | $1.50 por cada 1,000 solicitudes adicionales.                                             |
+| **AWS Textract**                 | $1.50/1k páginas        | Opciones premium para datos estructurados ($15 por 1,000 páginas).                       |
+| **OpenCV**                       | Gratuito                | Código abierto.                                                                           |
+| **TF-IDF/Word2Vec/Doc2Vec**      | Gratuito                | Código abierto, costos por hardware al entrenar embeddings personalizados.               |
+
+---
+
+### **Notas Importantes**
+1. **spaCy**: Ideal para tareas de procesamiento de lenguaje natural sin costos adicionales.
+2. **Hugging Face Transformers**: Gratuito para uso local, pero los servicios de inferencia o ajustes en la nube tienen costos asociados.
+3. **Tesseract OCR**: Excelente para tareas básicas de OCR sin inversión en herramientas comerciales.
+4. **Servicios en la nube**: Google Cloud y AWS ofrecen opciones escalables, pero los costos aumentan según el uso y la complejidad del procesamiento.
+5. **Hardware para entrenamiento**: Usar GPUs o TPUs en la nube puede incrementar significativamente los costos. Se recomienda optimizar modelos o usar soluciones preentrenadas cuando sea posible.
+
+---
+
